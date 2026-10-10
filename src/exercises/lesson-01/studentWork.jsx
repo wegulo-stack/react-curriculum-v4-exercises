@@ -17,9 +17,9 @@ export default function StudentWork() {
       <h1>About {name}</h1>
       <p>
         {' '}
-        Hello! My name is {name}, and I am {age} years old.{' '}
+        Hi there! My name is {name}, and I am {age} years old.{' '}
       </p>
-      <h2>Hobbies</h2>
+      <h2>My Hobbies</h2>
       <ul>
         {hobbies.map((hobby) => (
           <li key={hobby}>{hobby}</li>
